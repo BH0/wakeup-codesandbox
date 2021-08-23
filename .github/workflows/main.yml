@@ -1,0 +1,12 @@
+name: wakeup codesandbox container 
+
+on:
+  schedule:
+    - cron: '/5 * * * *'
+  jobs: 
+    wakeup:
+      name: Wakeup Codesandbox Container 
+      runs-on: ubuntu-latest
+      steps:
+        - name: cURL request
+        run: curl https://xshss.sse.codesandbox.io/lyrics?artist=disturbed&song=stricken
