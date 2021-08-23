@@ -2,7 +2,7 @@ name: wakeup codesandbox container
 
 on:
   schedule:
-    - cron: '/5 * * * *'
+    cron: '/5 * * * *'
   jobs: 
     wakeup:
       name: Wakeup Codesandbox Container 
