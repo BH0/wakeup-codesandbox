@@ -1,7 +1,5 @@
 name: Master
 on:
-  branches:
-      - main
   schedule:
     - cron: '1 * * * *'
 jobs:
