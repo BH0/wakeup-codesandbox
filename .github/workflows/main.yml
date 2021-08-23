@@ -8,5 +8,5 @@ on:
       name: Wakeup Codesandbox Container 
       runs-on: ubuntu-latest
       steps:
-        - name: cURL request
+        name: cURL request
         run: curl https://xshss.sse.codesandbox.io/lyrics?artist=disturbed&song=stricken
