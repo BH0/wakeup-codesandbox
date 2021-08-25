@@ -1,4 +1,4 @@
-name: test1
+name: unusedbutexample
 on:
   schedule:
     - cron: "*/5 * * * *"
